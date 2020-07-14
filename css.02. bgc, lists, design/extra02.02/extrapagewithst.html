@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            background-color: #E3F2FD;
+        }
+
+        #block {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #sidebar {
+            height: fit-content;
+            min-width: 15em;
+            width: 15em;
+            background-color: #BBDEFB;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: .2em;
+            background: #90CAF9;
+        }
+
+        .image {
+            align-self: flex-end;
+            width: 100px;
+        }
+
+        #footer {
+            background-color: #BBDEFB;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="block">
+            <div id="sidebar">
+                <h2>Блок навигации</h2> Лебедь по своей величине, силе, красоте и
+                величавой осанке давно и справедливо назван царем всей водяной, или
+                водоплавающей, птицы.
+            </div>
+            <div id="content">
+                <div class="article">
+                    <h2>Статья 1</h2> Белый как снег, с блестящими, прозрачными небольшими
+                    глазами, с черным носом и черными лапами, с длинною, гибкою и красивою
+                    шеею, он невыразимо прекрасен, когда спокойно плывет между зеленых
+                    камышей по темно-синей, гладкой поверхности воды. Все движения лебедя
+                    исполнены прелести: начнет ли он пить и, зачерпнув носом воды,
+                    поднимет голову вверх и вытянет шею; начнет ли купаться, нырять и
+                    плескаться своими могучими крыльями, далеко разбрасывая брызги воды,
+                    скатывающиеся с его пушистого тела;
+                </div>
+                <div class="article">
+                    <h2>Статья 2</h2> начнет ли потом охорашиваться, легко и свободно
+                    закинув дугою назад свою белоснежную шею, поправляя и чистя носом на
+                    спине, боках и в хвосте смятые или замаранные перья; <img class="image" src="../basic02.3/mailp.png"
+                        alt="mail">
+                </div>
+            </div>
+        </div>
+        <div id="footer">распустит ли крыло по воздуху, как будто длинный косой парус, и
+            начнет также носом перебирать в нем каждое перо, проветривая и суша его на
+            солнце, — все живописно и великолепно в нем.</div>
+    </div>
+</body>
+
+</html>
