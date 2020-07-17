@@ -3,16 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex03.01.css">
     <title>Document</title>
 </head>
-<style>
-    ul.MenuLevel1 { list-style: none; margin: 0; padding-left: 0; margin-top: 25px; height: 50px;}
-    ul.MenuLevel1 > li {float: left; position: relative; color: dimgray; border-radius: 5px; background-color:gainsboro ; border: solid black 1px; position: relative; cursor: pointer }
-    ul.MenuLevel2 {float: left; list-style: none; margin: 0; padding-left: 0; width: 90px; display: none }
-    ul.MenuLevel2 > li { position: block; color: dimgray; border-radius: 5px; background-color:gainsboro; border: solid black 1px; cursor: pointer }
-    ul.MenuLevel1 > li:hover ul.MenuLevel2 {float: none; display: block; position: absolute; bottom: auto;  z-index: 1}
-    ul.MenuLevel2:active:hover {background: green;}
-</style>
 <body>
     <ul class='MenuLevel1'>
         <li>Понедельник</li>
@@ -33,8 +26,9 @@
         </li>
         <li>Пятница</li>
         <li>Суббота</li>
-    
+
     </ul>
-    
+
 </body>
+
 </html>
